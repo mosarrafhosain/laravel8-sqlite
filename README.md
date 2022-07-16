@@ -1,29 +1,29 @@
 # Laravel 8 with SQLite
 
-# Installation
+## Installation
 
 Clone this repo
 ```
-$ git clone https://github.com/mosarrafhosain/laravel8-sqlite.git
+git clone https://github.com/mosarrafhosain/laravel8-sqlite.git
 ```
 
 Install composer packages
 ```
-$ cd laravel8-sqlite
-$ composer install
+cd laravel8-sqlite
+composer install
 ```
 
 Make a copy of .env.example
 ```
-$ copy .env.example .env
+copy .env.example .env
 ```
 
 Generate application key
 ```
-$ php artisan key:generate
+php artisan key:generate
 ```
 
-# Setup ENV for our SQLite Database
+## Setup ENV for our SQLite Database
 
 By default, you will see these lines inside the .env file.
 ```
@@ -44,10 +44,10 @@ DB_PORT=3306
 
 Run migration command
 ```
-$ php artisan migrate
+php artisan migrate
 ```
 
 Start development server
 ```
-$ php artisan serve
+php artisan serve
 ```
